@@ -12,9 +12,10 @@ Given with a line separated text file of integers ranging anywhere from Integer.
 * The text in the file has only integers which are line separated and no other characters. 
 
 ### Run the application
-To run the application, please use
-`./mvnw spring-boot:run`
-The sorted file is created as `output.txt`
+* Run the application using `./mvnw spring-boot:run`
+* Keep the input file in the same directory as the project.
+* Enter the file name to sort, eg. `BigFile.txt`
+* The sorted file is created as `output.txt` in ascending order.
 
 ### Technologies used
 * Spring boot
